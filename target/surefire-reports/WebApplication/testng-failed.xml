@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WebApplication]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Default test(failed)" verbose="0">
+    <classes>
+      <class name="testcases_general.TC_07_TakeChapterlevelAssessment">
+        <methods>
+          <include name="SelectSubject"/>
+          <include name="beforeMethod"/>
+          <include name="startTestCase"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases_general.TC_07_TakeChapterlevelAssessment -->
+      <class name="testcases_landingPageModule.TC_02_LandingPage">
+        <methods>
+          <include name="landingpage"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="startTestCase"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases_landingPageModule.TC_02_LandingPage -->
+      <class name="testcases_general.TC_04_TakeChapterAssessment">
+        <methods>
+          <include name="createAccount"/>
+          <include name="startTestCase"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases_general.TC_04_TakeChapterAssessment -->
+      <class name="testcases_profilePageModule.TC_02_ProfilePage">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="Profilepage"/>
+          <include name="startTestCase"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases_profilePageModule.TC_02_ProfilePage -->
+      <class name="testcases_myCoursePageModule.TC_03_Course_Content_Page">
+        <methods>
+          <include name="startTestCase"/>
+          <include name="beforeMethod"/>
+          <include name="Mycoursepage"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases_myCoursePageModule.TC_03_Course_Content_Page -->
+      <class name="testcases_myCoursePageModule.TC_05_Chapter_N_Topic_Assessment">
+        <methods>
+          <include name="Mycoursepage"/>
+          <include name="beforeMethod"/>
+          <include name="startTestCase"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases_myCoursePageModule.TC_05_Chapter_N_Topic_Assessment -->
+      <class name="testcases_assessment_module.TC_01_Assessment_Navigation">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="navigation"/>
+          <include name="startTestCase"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases_assessment_module.TC_01_Assessment_Navigation -->
+      <class name="testcases_general.TC_02_TakeChapterAssessment">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="createAccount"/>
+          <include name="startTestCase"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases_general.TC_02_TakeChapterAssessment -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [WebApplication] -->
